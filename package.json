@@ -1,0 +1,36 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authentication API with JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J03yK1n9/Authentication-JWT-.git"
+  },
+  "keywords": [
+    "Authentication",
+    "API",
+    "JWT",
+    "J03yK1n9"
+  ],
+  "author": "J03yK1n9",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/J03yK1n9/Authentication-JWT-/issues"
+  },
+  "homepage": "https://github.com/J03yK1n9/Authentication-JWT-#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
