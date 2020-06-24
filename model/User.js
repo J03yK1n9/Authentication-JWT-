@@ -1,5 +1,7 @@
+// Import mongoose dependancy
 const mongoose = require('mongoose')
 
+// userSchema is a schema representing the model of our schema
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
